@@ -119,7 +119,7 @@ const GridRenderer: React.FC<GridRendererProps> = ({ state, level }) => {
             </div>
         </div>
         <div className="p-4 font-mono text-xs overflow-y-auto flex-1 scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-transparent">
-            {state.logs.length === 0 && <span className="text-slate-600 animate-pulse">> Sistema listo. Esperando input...</span>}
+            {state.logs.length === 0 && <span className="text-slate-600 animate-pulse">&gt; Sistema listo. Esperando input...</span>}
             {state.logs.map((log, i) => (
             <div key={i} className={`mb-1.5 border-l-2 pl-2 ${
                 log.includes('Choque') ? 'text-red-400 border-red-500/50 bg-red-900/10' : 
