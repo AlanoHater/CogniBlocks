@@ -1,5 +1,0 @@
-{
-  "name": "CogniBlocks: Embodied Coding",
-  "description": "A drag-and-drop visual programming environment designed around embodied cognition principles. Students manipulate code blocks to control a robot, using the workspace as external memory. Features Gemini-powered pedagogical feedback.",
-  "requestFramePermissions": []
-}
